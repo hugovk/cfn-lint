@@ -20624,12 +20624,14 @@
    "af-south-1": [
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
    "ap-east-1": [
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20639,6 +20641,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20648,6 +20651,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20657,6 +20661,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20666,12 +20671,14 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
    "ap-south-2": [
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20682,6 +20689,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20692,12 +20700,14 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
    "ap-southeast-3": [
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20705,6 +20715,7 @@
     "db.t1.micro",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20714,6 +20725,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20741,30 +20753,35 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
    "eu-central-2": [
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
    "eu-north-1": [
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
    "eu-south-1": [
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
    "eu-south-2": [
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20776,6 +20793,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20785,6 +20803,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20794,6 +20813,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20806,12 +20826,14 @@
    "me-central-1": [
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
    "me-south-1": [
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20823,6 +20845,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20832,6 +20855,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20841,6 +20865,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20850,6 +20875,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20861,6 +20887,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20872,6 +20899,7 @@
     "db.t2.small",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ],
@@ -20883,6 +20911,7 @@
     "db.t3.2xlarge",
     "db.t3.large",
     "db.t3.medium",
+    "db.t3.micro",
     "db.t3.small",
     "db.t3.xlarge"
    ]

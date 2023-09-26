@@ -7744,13 +7744,19 @@
      "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-healthimaging-datastore.html#cfn-healthimaging-datastore-datastorename",
      "PrimitiveType": "String",
      "Required": false,
-     "UpdateType": "Immutable"
+     "UpdateType": "Immutable",
+     "Value": {
+      "ValueType": "AWS::HealthImaging::Datastore.DatastoreName"
+     }
     },
     "KmsKeyArn": {
      "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-healthimaging-datastore.html#cfn-healthimaging-datastore-kmskeyarn",
      "PrimitiveType": "String",
      "Required": false,
-     "UpdateType": "Immutable"
+     "UpdateType": "Immutable",
+     "Value": {
+      "ValueType": "AWS::HealthImaging::Datastore.KmsKeyArn"
+     }
     },
     "Tags": {
      "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-healthimaging-datastore.html#cfn-healthimaging-datastore-tags",
@@ -9208,6 +9214,11 @@
   "AWS::Connect::Rule.TaskAction.Name": "CACHED",
   "AWS::Connect::SecurityKey.InstanceId": "CACHED",
   "AWS::Connect::SecurityKey.Key": "CACHED",
+  "AWS::Connect::SecurityProfile.Description": "CACHED",
+  "AWS::Connect::SecurityProfile.InstanceArn": "CACHED",
+  "AWS::Connect::SecurityProfile.Permissions": "CACHED",
+  "AWS::Connect::SecurityProfile.SecurityProfileName": "CACHED",
+  "AWS::Connect::SecurityProfile.TagRestrictedResources": "CACHED",
   "AWS::Connect::TaskTemplate.ClientToken": "CACHED",
   "AWS::Connect::TaskTemplate.ContactFlowArn": "CACHED",
   "AWS::Connect::TaskTemplate.DefaultFieldValue.DefaultValue": "CACHED",
@@ -10113,6 +10124,15 @@
   "AWS::GuardDuty::IPSet.Format": "CACHED",
   "AWS::GuardDuty::Member.Status": "CACHED",
   "AWS::GuardDuty::ThreatIntelSet.Format": "CACHED",
+  "AWS::HealthImaging::Datastore.DatastoreName": {
+   "AllowedPatternRegex": "^[A-Za-z0-9._/#-]+$",
+   "StringMax": 256,
+   "StringMin": 1
+  },
+  "AWS::HealthImaging::Datastore.KmsKeyArn": {
+   "StringMax": 512,
+   "StringMin": 1
+  },
   "AWS::IAM::AccessKey.Active": "CACHED",
   "AWS::IAM::AssumeRole.Document": "CACHED",
   "AWS::IAM::Group.Name": "CACHED",
@@ -11480,6 +11500,7 @@
   "AWS::Pipes::Pipe.Filter.Pattern": "CACHED",
   "AWS::Pipes::Pipe.Name": "CACHED",
   "AWS::Pipes::Pipe.PipeEnrichmentHttpParameters.PathParameterValues": "CACHED",
+  "AWS::Pipes::Pipe.PipeEnrichmentParameters.InputTemplate": "CACHED",
   "AWS::Pipes::Pipe.PipeSourceActiveMQBrokerParameters.BatchSize": "CACHED",
   "AWS::Pipes::Pipe.PipeSourceActiveMQBrokerParameters.QueueName": "CACHED",
   "AWS::Pipes::Pipe.PipeSourceDynamoDBStreamParameters.BatchSize": "CACHED",
@@ -11522,6 +11543,7 @@
   "AWS::Pipes::Pipe.PipeTargetHttpParameters.PathParameterValues": "CACHED",
   "AWS::Pipes::Pipe.PipeTargetKinesisStreamParameters.PartitionKey": "CACHED",
   "AWS::Pipes::Pipe.PipeTargetLambdaFunctionParameters.InvocationType": "CACHED",
+  "AWS::Pipes::Pipe.PipeTargetParameters.InputTemplate": "CACHED",
   "AWS::Pipes::Pipe.PipeTargetRedshiftDataParameters.Database": "CACHED",
   "AWS::Pipes::Pipe.PipeTargetRedshiftDataParameters.DbUser": "CACHED",
   "AWS::Pipes::Pipe.PipeTargetRedshiftDataParameters.SecretManagerArn": "CACHED",
@@ -15623,6 +15645,7 @@
     "u-3tb1.56xlarge",
     "u-6tb1.112xlarge",
     "u-6tb1.56xlarge",
+    "u-6tb1.metal",
     "x1.16xlarge",
     "x1.32xlarge",
     "x1e.16xlarge",
